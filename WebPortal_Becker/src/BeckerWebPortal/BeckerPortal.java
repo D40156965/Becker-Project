@@ -306,7 +306,7 @@ package BeckerWebPortal;
 						
 			   }
 			               
- //SIGN IN and SIGN OUT
+ /*SIGN IN and SIGN OUT
 			@Test(priority=4,enabled=true,dataProvider="becker")
 			public void SignIn(String UserName, String Password, String ConfirmPassword, String FirstName, String LastName, String Phone, String AltPhone,
 					String Address, String AptUnitSuite, String City, String PostalCode, String UserID) 
@@ -337,6 +337,6 @@ package BeckerWebPortal;
 						logout.executeScript("arguments[0].click();", Logout);
 						
             }      
-               
+   */            
                
                }
